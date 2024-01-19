@@ -15,10 +15,11 @@ google_analytics: ""
 logo_url: "/assets/images/logo.png"
 logo_url_2: "/assets/images/white_logo.png"
 
-facebook_url: "https://www.facebook.com/"
-twitter_url: "https://twitter.com/"
-youtube_url: "https://www.youtube.com/"
-instagram_url: "https://www.instagram.com/"
+
+#facebook_url: "https://www.facebook.com/"
+#twitter_url: "https://twitter.com/"
+#youtube_url: "https://www.youtube.com/"
+#instagram_url: "https://www.instagram.com/"
 
 form_action_url: "https://formsubmit.io/send/hello@juxi-ai.com"
 

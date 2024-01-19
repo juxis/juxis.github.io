@@ -1,8 +1,5 @@
 - text: "Home"
   url: "/"
-  submenu:
-  - text: "Home 2"
-    url: "/index-2"
 - text: "Blog"
   url: "/blog/"
 - text: "About"
