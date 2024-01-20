@@ -4210,15 +4210,15 @@ header.sticky-header + section {
 
 .hexagonal-img-hex-in2 .hexagonal-image {
   margin-top: 20px;
-  -webkit-transform: scale(1.5, 1.5) rotate(90deg);
-          transform: scale(1.5, 1.5) rotate(90deg);
+  -webkit-transform: scale(1.0, 1.0) rotate(90deg);
+          transform: scale(1.0, 1.0) rotate(90deg);
   -webkit-transition: all .25s ease;
   transition: all .25s ease;
 }
 
 .hexagonal-img-hex-in2:hover .hexagonal-image {
-  -webkit-transform: scale(1.6, 1.6) rotate(90deg);
-          transform: scale(1.6, 1.6) rotate(90deg);
+  -webkit-transform: scale(1.1, 1.1) rotate(90deg);
+          transform: scale(1.1, 1.1) rotate(90deg);
 }
 
 /*--------------------------------------------------------------
@@ -8503,7 +8503,7 @@ input[type="checkbox"]::-ms-check {
 }
 
 .site-footer .footer-bottom .copyright-text {
-  margin-bottom: 0;
+  text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
