@@ -1,18 +1,18 @@
 ---
-layout: white_default
+layout: default
 ---
 
 {% include page_header.html %}
 <div class="page-wrapper">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 mx-auto pt-90 pb-80">
+			<div class="col-md-8 mx-auto pt-80 pb-80">
 				{% if page.thumbnail %}
-				<div class="page-thumbnail mb-4">
+				<div class="page-thumbnail mb-4"  style="text-align: center;">
 					<img src="{{page.thumbnail}}" alt="{{page.title}}" class="img-fluid"/>
 				</div>
 				{% endif %}
-				<div class="content">
+				<div class="content" style="text-align: center;">
 					{{page.content}}
 				</div>
 			</div>
