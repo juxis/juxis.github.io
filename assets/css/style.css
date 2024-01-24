@@ -4236,11 +4236,12 @@ header.sticky-header + section {
   display: block;
   margin: auto;
   overflow: hidden;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
   .portfolio-thumb img {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -4249,10 +4250,10 @@ header.sticky-header + section {
   top: 0;
   left: 0;
   padding: 20px;
-  background: rgba(3, 222, 223, 0.9);
+  background: transparent;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 1;
   text-align: center;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -4274,7 +4275,7 @@ header.sticky-header + section {
 }
 
 .portfolio-thumb .hover-content .hover-details {
-  top: 50% !important;
+  top: 80% !important;
   position: absolute;
   left: 0;
   right: 0;

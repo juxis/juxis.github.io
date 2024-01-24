@@ -1,26 +1,44 @@
 ---
-layout: page
-title: "Chief Sales Officer"
-icon: "pe-7s-phone"
-thumbnail: "/assets/images/Portfolio/2_resized.jpg"
-category: ""
-filter: ""
+layout: default
 ---
 
-<div class="portfolio-header">
-    <h2 class="portfolio-title">AI-Powered CSO</h2>
-    <div class="portfolio-meta">
-        <div class="portfolio-cat">
-            <a href="#">{{page.category}}</a>
-        </div>
-    </div>
-</div>
 
-<div class="portfolio-details">
-    <p>
+<style>
+.text-container {
+  overflow-y: scroll;  /* Enables scrolling for long text */
+  height: 400px;  /* Match the height of the image container */
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-justify: auto;
+}
+
+.image-container {
+  height: 400px;  /* Adjust as per your image's height */
+}
+
+.text-uppercase {
+    color: #52c4cd;
+}
+</style>
+
+<section class="product-content pd-tb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <figure>
+                    <img src="/assets/images/Portfolio/2.jpg" alt="leila" class="image-container"/>
+                </figure>
+            </div><!--  /.col-md-4 -->
+            <div class="col-md-8 text-container">
+                <h4 class="text-uppercase"><b>Leila AI</b></h4>
+                <h5><b>Chief Sales Officer</b></h5>
+                <p>
         Leila AI transforms your commercial strategy, offering innovative solutions for sales, customer engagement, and market expansion.
     </p>
     <p><li><b>Co-Creative Sales Planning</b> - Engage with Leila AI to develop personalized sales strategies, integrating team insights for a tailored approach.</li></p>
     <p><li><b>Customer Engagement Enhancement</b> - Collaborate with Leila AI for deeper customer insights, fostering loyalty through a nuanced, empathetic engagement strategy.</li></p>
     <p><li><b>Innovative Commercial Brainstorming</b> - Partner with Leila AI to ideate and set commercial trends, ensuring your strategies are not just current but pioneering.</li></p>
-</div>
+            </div><!--  /.col-md-6 -->
+        </div><!--  /.row -->
+    </div>
+</section>
