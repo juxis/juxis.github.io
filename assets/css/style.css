@@ -1025,7 +1025,7 @@ dd {
 .accordion .card-header {
   background: transparent;
   border-bottom: 0 none;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .accordion .card-header.collapsed {
