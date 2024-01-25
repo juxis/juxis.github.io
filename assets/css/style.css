@@ -4312,11 +4312,11 @@ header.sticky-header + section {
 }
 
 .portfolio-thumb .hover-content .hover-details span {
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 500;
   display: inherit;
-  padding: 0;
+  padding: 5;
 }
 
 .portfolio-thumb:hover .hover-content {
@@ -4592,10 +4592,65 @@ header.sticky-header + section {
   font-size: 14px; 
 }
 
+
 .call-to-link-2:hover {
   border-color: #03dedf;
   background-color: #03dedf;
   color: #ffffff;
+}
+
+/* start of large tablet styles */
+@media screen and (max-width: 991px) {
+  .call-to-link-2 {
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .call-to-link-2 {
+    padding: 0px 10px;
+    font-size: 12px;
+    font-weight: 300;
+    transform: translateY(-10px); /* Moves the element up by 5px */
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .call-to-link-2 {
+    padding: 0px 10px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+/* start of medium tablet styles */
+@media screen and (max-width: 767px) {
+  .call-to-link-2 {
+    padding: 0px 15px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+/* start of phone styles */
+@media screen and (max-width: 479px) {
+  .call-to-link-2 {
+    padding: 0px 15px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .call-to-link-2 {
+    padding: 0px 5px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 10px;
+    transform: translateY(-10px); /* Moves the element up by 5px */
+  }
 }
 
 .call-to-link-3 {
