@@ -1,6 +1,4 @@
 Gemfile
 Gemfile.lock
-.DS_Store
-assets/.DS_Store
-assets/images/.DS_Store
-assets/images/team/.DS_Store
+*.DS_Store
+_site/*
