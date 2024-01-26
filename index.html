@@ -2,24 +2,70 @@
 layout: default
 title: "JUXI - Homepage"
 ---
-{% include slider.html %}
-<section class="service-content pd-tb-60">
+
+<style>
+    .top-juxi-section {
+        background-color: #0d1422; /* Replace with your desired background color */
+        background-size: cover;
+    }
+
+    .juxi-container {
+    height: 20vh; /* 50% of the viewport height */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 200px; /* Or any desired height */
+    padding: 30px;
+}
+.section-border {
+    border: 2px solid black; /* '2px' is the border width, 'solid' is the border style, and '#000000' is the color (black) */
+    background-color: whitesmoke; /* Replace with your desired background color */
+    background-size: cover;
+}
+
+</style>
+<section class="top-juxi-section pd-tb-60">
+    <div class="juxi-container">
+        <div class="row">
+                <h2><b style="color: #52c4cd"><span>Empowering small business owners</span><br><span>with your own AI C-Suite executives</span></b></h2>
+        </div><!--  /.row -->
+    </div>
+</section>
+
+<!-- Redefining Small Business ... section-->
+<section class="section-border pd-tb-60">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h3><b style="color: #52c4cd">Redefining Small Business Management</b></h3>
-                <p class="justify-text">At Juxi, we recognize the multifaceted roles small business owners juggle daily. From marketing and human resources to financial management and IT, the demands are endless, and the stakes are high. We also understand that the operating costs for small businesses often preclude the ability of hiring of specialized C-suite executives, such as CMOs, CSOs, CFOs, and CIOs. 
+            <div class="col text-center bg-grey p-3">
+                <p style="font-size: 24px; color:black;">Redefining Small Business<br> Management</p>
+            </div>
+            <div class="col text-left bg-grey p-3">
+                <p style="font-size: 16px; color:black;">At Juxi, we recognize the multifaceted roles small business owners juggle daily. From marketing and human resources to financial management and IT, the demands are endless, and the stakes are high. We also understand that the operating costs for small businesses often preclude the ability of hiring of specialized C-suite executives, such as CMOs, CSOs, CFOs, and CIOs. 
                     That is where Juxi fills the gap for small business owners, so that they can ideate and collaborate with their own AI C-Suite Executives.</p>
-            </div><!--  /.col-md-6 -->  
-        </div><!--  /.row -->
-        <div class="row">
-            <div class="col-md-12">
-                <h3><b style="color: #52c4cd">Empower Small Business Owners with AI Solutions</b></h3>
-                <p class="justify-text">Our mission is to empower small businesses with affordable, easy to use AI cutting-edge technology that fosters growth and prosperity. We believe Juxi will redefine the AI landscape for Small Businesses, offering not just AI support but personalized C-suite personas with tailored prompts, enhancing decision-making, ideation and driving small business success. </p>
-            </div><!--  /.col-md-6 -->  
-        </div><!--  /.row -->
-    </div><!--  /.container -->
+            </div>
+        </div>
+    </div>
 </section>
+<!-- /Redefining Small Business ... section-->
+
+<!-- Product -->
+{% include our_team.html %}
+<!-- /Product -->
+
+<!-- Providing small business owners ... section-->
+<section class="section-border pd-tb-60">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center bg-grey p-3">
+                <p style="font-size: 24px; color:black;">Providing small business owners with AI-driven C-Suite executive assistance</p>
+            </div>
+            <div class="col text-left bg-grey p-3">
+                <p style="font-size: 16px; color:black;">Our mission is to empower small businesses with affordable, easy to use AI cutting-edge technology that fosters growth and prosperity. We believe Juxi will redefine the AI landscape for Small Businesses, offering not just AI support but personalized C-suite personas with tailored prompts, enhancing decision-making, ideation and driving small business success. </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Providing small business owners ... section-->
 
 <footer class="site-footer bg-bl-russian">
     <div class="footer-top pd-tb-45">
